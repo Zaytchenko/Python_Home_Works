@@ -14,4 +14,3 @@ seconds = int(input('Введите количество секунд: '))
 hours = seconds / 3600
 minutes = seconds / 60
 print(f'Время в формате ч:м:с - {hours} : {minutes} : {seconds}')
- 
