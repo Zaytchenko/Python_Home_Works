@@ -19,8 +19,8 @@
 Прибыль фирмы в расчете на одного сотрудника = 50.0
 """
 
-revenue = int(input('Введите прибыль: '))
-costs = int(input('Введите убытки: '))
+revenue = int(input('Введите выручку: '))
+costs = int(input('Введите издержки: '))
 if revenue > costs:
     profit = revenue - costs
     print(f'Финансовый результат - прибыль. Ее величина: {profit}')
@@ -28,5 +28,7 @@ if revenue > costs:
     personal = int(input('Введите численность сотрудников: '))
     print(
         f'Прибыль фирмы в расчете на одного сотрудника =  {profit / personal}')
+elif revenue == costs:
+    print('Финансовый результат - безубыточная работа') 
 else:
      print('Финансовый результат - убыток')  

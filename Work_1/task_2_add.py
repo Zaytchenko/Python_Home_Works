@@ -8,10 +8,10 @@
 """
 
 n = int(input('Введите трехзначное число: '))
-summa = 0
+sum = 0
 while n > 0:
     x = n % 10
-    summa = summa + x
+    sum = sum + x
     n = n // 10
 else:
-    print(f'сумма цифр трехзначного числа: {summa}')
+    print(f'сумма цифр трехзначного числа: {sum}')

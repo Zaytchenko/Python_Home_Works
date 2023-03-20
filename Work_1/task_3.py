@@ -9,5 +9,7 @@
 n + nn + nnn = 369
 """
 
-n = int(input('Введите число n: '))
-print(f'n + nn + nnn = {n}{2 * n}{3 * n}')
+n = int(input('Введите целое положительное число n: '))
+nn = n + n
+nnn = n + n + n
+print("% s% s% s" %(n, nn, nnn))
